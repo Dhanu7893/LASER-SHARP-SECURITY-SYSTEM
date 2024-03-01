@@ -1,8 +1,12 @@
-Source Code For Laser-Sharp-Security(C lanuage)#include <LiquidCrystal_I2C.h>
+Source Code For Laser-Sharp-Security(C lanuage)
 
+
+#include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
+
 #include <SoftwareSerial.h>
+
 SoftwareSerial mySerial(9, 10);
 
 int buzzer = 13;
